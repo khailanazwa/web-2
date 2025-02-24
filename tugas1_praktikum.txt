@@ -1,0 +1,41 @@
+Nama : Khaila Nazwa 
+Nim : 0110124149 
+Rombel : SI06
+
+1.	Jelaskan apa yang dimaksud dengan dokumen root ?
+    Dokumen root adalah dokumen utama atau induk dalam suatu sistem file, struktur dokumen, atau dalam konteks pengembangan web
+
+2. Pada apache web server, apakah dokumen root harus terletak dalam direktori
+C:\xampp\htdocs ? Jelaskan jawaban anda? 
+    Tidak, dokumen root pada Apache Web Server tidak harus selalu berada di direktori C:\xampp\htdocs
+    Namun, jika dipindahkan, perlu dilakukan konfigurasi ulang di httpd.conf agar Apache tahu di mana harus mencari file website
+
+3. Jelaskan apa yang dimaksud dengan perintah git : init, clone, remote, add, commit, push
+dan checkout
+    git init : Membuat repository baru
+    clone : Menyalin repository dari remote ke lokal
+    remote	:Menghubungkan repository lokal dengan repository jarak jauh
+    add	 : Menambahkan file ke staging area
+    commit	:Menyimpan perubahan ke repository lokal
+    push	:Mengirim perubahan ke repository remote
+    checkout	:Beralih antar branch atau commit
+
+4. Jelaskan perbedaan antara GitHub dan GitLab
+    GitHub dan GitLab adalah platform hosting source code yang populer, namun memiliki perbedaan:
+    GitHub lebih populer dan banyak digunakan untuk proyek open-source karena komunitasnya besar dan lebih mudah diakses. 
+    Tidak ada CI/CD bawaan, harus pakai GitHub Actions atau layanan eksternal dan 
+    juga Memiliki fitur dasar seperti Issues, Projects, dan Discussions. Github ini juga Gratis dengan batasan fitur, berbayar untuk fitur yang premium
+    Sedangkan GitLab memiliki fitur CI/CD bawaan, sehingga lebih mudah dan Keamanan lebih kuat dengan fitur bawaan seperti 
+    scanning dan kontrol akses tingkat lanjut, dan juga Fitur lebih kaya dengan Boards, Roadmaps, dan burndown charts
+
+5. Apa bedanya variable user dengan variable system ?
+    Variable user adalah variabel yang digunakan untuk menyimpan data yang spesifik untuk pengguna
+    Sedangkan variable system adalah variabel yang digunakan untuk menyimpan data yang spesifik untuk
+    sistem operasi, seperti direktori sistem, konfigurasi jaringan, dan lain-lain
+
+6. Apa persamaan variable system dengan variable constant ?
+    Menyimpan Nilai yang Digunakan Secara Luas
+    Bersifat Global
+    Digunakan untuk Konfigurasi
+    Keduanya menyimpan informasi penting yang digunakan dalam sistem atau program dan bersifat global.
+
